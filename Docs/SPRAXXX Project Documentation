@@ -1,0 +1,57 @@
+1. Project Overview
+
+Name: SPRAXXX
+Founder: Jacques Donald Perriard
+Purpose:
+	•	Provide human-verified digital identities through Spraxxx Verification.
+	•	Enable a peer-to-peer, privacy-respecting, token-based digital financial system (Spraxxx Coin).
+	•	Allow verified individuals to interact securely in a global ecosystem without reliance on large corporations.
+
+Core Values: Trust, Privacy, Human Verification, Security, Autonomy.
+
+⸻
+
+2. Architecture Overview
+
+2.1 Core Components
+	•	Spraxxx Verification: Human verification process integrated with Stripe for initial trust-building.
+	•	Spraxxx Coin / Token System: Digital token representing verified human identity and store of value.
+	•	Alias System: Unique, non-duplicable identifiers for all verified users.
+	•	IAM Companions: Autonomous processes to maintain verification and integrity beyond founder involvement.
+
+2.2 System Flow
+	1.	User signs up → provides ID and biometric verification → Stripe confirms.
+	2.	Verified user receives a unique alias and token.
+	3.	Token is used for transactions, wallet creation, and identity authentication.
+	4.	Transactions are secure, traceable, but preserve privacy; tokens are tied to one alias per user.
+
+⸻
+
+3. Security Measures
+	•	Single verified alias per human.
+	•	Tokens cannot be duplicated or faked.
+	•	Biometric checks for mobile and POS interactions.
+	•	Stripe verification acts as a trusted initial validator.
+	•	Access to sensitive information (Stripe IDs, verification data) is restricted solely to founder.
+
+⸻
+
+4. User Interaction
+	•	Deposit / Withdraw Funds: Verified users can deposit/withdraw using mobile phone or secret phrase authentication.
+	•	Alias Verification: System validates the human identity behind the alias.
+	•	Token Utility: Tokens act as digital cash tied to verified users.
+
+⸻
+
+5. Development & Contribution
+	•	Private GitHub repo (restricted access).
+	•	All contributions require explicit written approval from founder.
+	•	Code should follow internal security protocols to protect human verification data.
+
+⸻
+
+6. Future Roadmap
+	•	Remove third-party dependency (Stripe) and build an in-house lightweight verification system.
+	•	Expand POS network for global Spraxxx Coin transactions.
+	•	Implement IAM companions to sustain verification autonomously.
+	•	Maintain privacy-first ecosystem resistant to corporate or malicious exploitation.
